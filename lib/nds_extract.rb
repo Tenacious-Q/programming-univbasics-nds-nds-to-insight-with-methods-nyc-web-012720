@@ -19,12 +19,11 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-
   result = {}
   director_index = 0
   while director_index < nds.length do
-    movie_index = 0
     total = 0
+    movie_index = 0
     while movie_index < nds[director_index][:movies].count do
       total += nds[director_index][:movies][movie_index][:worldwide_gross]
       movie_index += 1
@@ -36,13 +35,16 @@ def directors_totals(nds)
   result
 end
 
+---------------------------------------------------------------------
 
+#puts a hash of {"Stephen Spielberg"=>1357566430, "Russo Brothers"=> 2281002470, etc }
 puts directors_totals(directors_database)
 
+#puts Stephen Spielbergs total of worldwide_grosses
 puts directors_totals(directors_database)["Stephen Spielberg"]
-
-
-## FOR SCRATCH WORK
+#
+#
+# FOR SCRATCH WORK ---------------------------------------------------
 #directors_totals method
 =begin
 result = {}
