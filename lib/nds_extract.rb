@@ -35,7 +35,7 @@ def directors_totals(nds)
   result
 end
 
----------------------------------------------------------------------
+#---------------------------------------------------------------------
 
 #puts a hash of {"Stephen Spielberg"=>1357566430, "Russo Brothers"=> 2281002470, etc }
 puts directors_totals(directors_database)
