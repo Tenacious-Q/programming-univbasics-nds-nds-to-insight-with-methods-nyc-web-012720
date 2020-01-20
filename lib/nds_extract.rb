@@ -10,6 +10,7 @@ def gross_for_director(director_data)
   #could assign director_name = "Steven Spielberg"
   #and use directors_totals(directors_database)["director_name"]
   #not sure if iterating through would work since it is a hash
+  #and don't think that is what the lab is asking for
   #
   directors_totals(directors_database)["Stephen Spielberg"]
 end
