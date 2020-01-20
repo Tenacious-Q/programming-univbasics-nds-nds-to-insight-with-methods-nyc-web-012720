@@ -40,7 +40,7 @@ end
 #puts a hash of {"Stephen Spielberg"=>1357566430, "Russo Brothers"=> 2281002470, etc }
 puts directors_totals(directors_database)
 
-#puts Stephen Spielbergs total of worldwide_grosses 
+#puts Stephen Spielbergs total of worldwide_grosses
 puts directors_totals(directors_database)["Stephen Spielberg"]
 #
 #
